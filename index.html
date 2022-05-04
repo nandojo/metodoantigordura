@@ -1,106 +1,694 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<html lang="en-US">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<head>
+	<title>Modelo de Página em HTML</title>
+	<meta name="author" content="Agência MKTIVO">
+	<meta name="robots" content="index follow">
+	<meta name="googlebot" content="index follow">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800%7CPoppins:300i,400,700,400i,500" rel="stylesheet">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Dosis:wght@200;300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&family=Signika:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<!-- CSS Files -->
+	<link rel="stylesheet" href="assets/css/animate.css"/>
 
-    <link rel="stylesheet" href="./assets/css/com.css">
+	<!-- Owl Carousel Assets -->
+	<link href="assets/css/owl.carousel.css" rel="stylesheet">
+	<link href="assets/css/owl.theme.css" rel="stylesheet">
 
-    <!-- Título da Página -->
-    <title>Metodo Anti Gordra</title>
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/colors/color-1.css">
+	<link rel="stylesheet" href="assets/css/elegant_icon.css">
+
+	<script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+	<script type="text/javascript" src="assets/js/jquery.gomap-1.3.3.min.js"></script>
+
+	<!-- REVOLUTION STYLE SHEETS -->
+	<link rel="stylesheet" type="text/css" href="assets/revslider/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+	<link rel="stylesheet" type="text/css" href="assets/revslider/fonts/font-awesome/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="assets/revslider/css/settings.css">
+	<!-- REVOLUTION LAYERS STYLES -->
+
+	<!-- REVOLUTION JS FILES -->
+	<script type="text/javascript" src="assets/revslider/js/jquery.themepunch.tools.min.js"></script>
+	<script type="text/javascript" src="assets/revslider/js/jquery.themepunch.revolution.min.js"></script>
+
+	<!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
+	<script type="text/javascript" src="assets/revslider/js/extensions/revolution.extension.actions.min.js"></script>
+	<script type="text/javascript" src="assets/revslider/js/extensions/revolution.extension.carousel.min.js"></script>
+	<script type="text/javascript" src="assets/revslider/js/extensions/revolution.extension.kenburn.min.js"></script>
+	<script type="text/javascript" src="assets/revslider/js/extensions/revolution.extension.layeranimation.min.js"></script>
+	<script type="text/javascript" src="assets/revslider/js/extensions/revolution.extension.migration.min.js"></script>
+	<script type="text/javascript" src="assets/revslider/js/extensions/revolution.extension.navigation.min.js"></script>
+	<script type="text/javascript" src="assets/revslider/js/extensions/revolution.extension.parallax.min.js"></script>
+	<script type="text/javascript" src="assets/revslider/js/extensions/revolution.extension.slideanims.min.js"></script>
+	<script type="text/javascript" src="assets/revslider/js/extensions/revolution.extension.video.min.js"></script>
+
+</head>
+
+<body>
+	<!-- Header  -->
+	<header class="background-main-color">
+		<div class="background-second-color padding-tb-5px">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm d-none d-sm-block text-white"></div>
+				</div>
+			</div>
+		</div>
+		<div class="header-output">
+			<div class="container header-in">
+				<div class="row">
+					<div class="col-lg-3">
+						<a id="logo" href="01-home.html" class="d-inline-block margin-tb-10px"><img src="assets/img/logo-2.png" alt=""></a>
+						<a class="mobile-toggle padding-10px background-second-color" href="#"><i class="fas fa-bars"></i></a>
+					</div>
+					<div class="col-lg-7 position-inherit">
+						<ul id="menu-main" class="nav-menu float-lg-right link-padding-tb-20px white-link">
+							<li><a class="dropdown" href="#">HOME</a>
+							</li>
+							<li><a class="dropdown" href="#">MENU 1</a>
+							</li>
+
+							<li><a class="dropdown" href="#">MENU 2</a>
+							</li>
+							<li><a class="dropdown" href="#">MENU 3</a>
+							</li>
+							<li><a class="dropdown" href="#">MENU 4</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-lg-2  d-none d-lg-block">
+						<a href="#" class="btn btn-sm border-radius-30 margin-tb-15px text-black background-lime btn-block">
+                            LIGUE AGORA!
+                        </a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- // Header  -->
+
+	<style type="text/css">
+		.hesperiden.tparrows {
+			cursor: pointer;
+			background: rgba(0, 0, 0, 0.5);
+			width: 40px;
+			height: 40px;
+			position: absolute;
+			display: block;
+			z-index: 100;
+			border-radius: 50%
+		}
+
+		.hesperiden.tparrows:hover {
+			background: #CDDC39;
+		}
+
+		.hesperiden.tparrows:before {
+			font-family: "revicons";
+			font-size: 20px;
+			color: white;
+			display: block;
+			line-height: 40px;
+			text-align: center
+		}
+
+		.hesperiden.tparrows.tp-leftarrow:before {
+			content: "\e82c";
+			margin-left: -3px;
+		}
+
+		.hesperiden.tparrows.tp-rightarrow:before {
+			content: "\e82d";
+			margin-right: -3px
+		}
+
+		.hermes.tp-bullets {}
+
+		.hermes .tp-bullet {
+			overflow: hidden;
+			border-radius: 50%;
+			width: 16px;
+			height: 16px;
+			background-color: rgba(0, 0, 0, 0);
+			box-shadow: inset 0 0 0 2px #CDDC39;
+			-webkit-transition: background 0.3s ease;
+			transition: background 0.3s ease;
+			position: absolute
+		}
+
+		.hermes .tp-bullet:hover {
+			background-color: #ecefce;
+		}
+
+		.hermes .tp-bullet:after {
+			content: ' ';
+			position: absolute;
+			bottom: 0;
+			height: 0;
+			left: 0;
+			width: 100%;
+			background-color: #CDDC39;
+			box-shadow: 0 0 1px #CDDC39;
+			-webkit-transition: height 0.3s ease;
+			transition: height 0.3s ease
+		}
+
+		.hermes .tp-bullet.selected:after {
+			height: 100%
+		}
+
+	</style>
+
+	<div id="rev_slider_19_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="the-nile-2" data-source="gallery" style="margin:0px auto;background:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
+		<!-- START REVOLUTION SLIDER 5.4.1 fullwidth mode -->
+		<div id="rev_slider_19_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.4.1">
+			<ul>
+				<!-- SLIDE  -->
+				<li data-index="rs-68" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="assets/revslider/assets/100x50_04191-4.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+					<!-- MAIN IMAGE -->
+					<img src="assets/revslider/assets/1600x1070.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+					<!-- LAYERS -->
+
+					<!-- LAYER NR. 1 -->
+<!--
+					<div class="tp-caption   tp-resizeme" id="slide-68-layer-1" data-x="['left','left','left','center']" data-hoffset="['462','572','256','0']" data-y="['top','top','top','top']" data-voffset="['144','143','73','161']" data-fontsize="['60','60','60','40']" data-lineheight="['50','50','50','40']" data-fontweight="['700','700','700','300']" data-width="['202','202','202','456']" data-height="['146','146','146','none']" data-whitespace="normal" data-type="text" data-responsive_offset="on" data-frames='[{"delay":550,"speed":750,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['inherit','inherit','inherit','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6; min-width: 202px; max-width: 202px; max-width: 146px; max-width: 146px; white-space: normal; font-size: 60px; line-height: 50px; font-weight: 700; color: #0864b2;font-family:Poppins;">Título Aqui e Aqui
+					</div>
+-->
+
+					<!-- LAYER NR. 2 -->
+<!--					<div class="tp-caption   tp-resizeme" id="slide-68-layer-2" data-x="['left','left','left','center']" data-hoffset="['460','571','257','0']" data-y="['middle','middle','middle','middle']" data-voffset="['13','12','56','56']" data-width="306" data-height="none" data-whitespace="normal" data-type="text" data-responsive_offset="on" data-frames='[{"delay":1040,"speed":770,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['inherit','inherit','inherit','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 7; min-width: 306px; max-width: 306px; white-space: normal; font-size: 14px; line-height: 22px; font-weight: 300; color: #494949;font-family:Poppins;">um texto descritivo caso deseje, ele ficará aqui, para desativar é só apagar essa linha de texto do codigo </div>-->
+
+					<!-- LAYER NR. 3 -->
+<!--					<div class="tp-caption rev-btn rev-withicon " id="slide-68-layer-3" data-x="['left','left','left','center']" data-hoffset="['459','568','257','0']" data-y="['top','top','top','top']" data-voffset="['439','439','381','381']" data-color="['rgb(255,255,255)','rgb(255,255,255)','rgba(255,255,255,1)','rgba(255,255,255,1)']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-responsive_offset="on" data-responsive="off" data-frames='[{"delay":1590,"speed":790,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);bg:rgb(0,122,255);bs:solid;bw:0 0 0 0;"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[12,12,12,12]" data-paddingright="[35,35,35,35]" data-paddingbottom="[12,12,12,12]" data-paddingleft="[35,35,35,35]" style="z-index: 8; white-space: nowrap; font-size: 14px; line-height: 17px; font-weight: 300; color: #ffffff;font-family:Poppins;background-color:rgb(255,196,0);border-color:rgba(0,0,0,1);outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">LIGUE JÁ!<i class="fa-icon-chevron-right"></i> </div>-->
+				</li>
+				<!-- SLIDE  -->
+<!--                    <li data-index="rs-69" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="assets/revslider/assets/100x50_d22b4-5.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">-->
+                        <!-- MAIN IMAGE -->
+<!--                        <img src="http://placehold.it/1600x1070" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>-->
+                        <!-- LAYERS -->
+
+                        <!-- LAYER NR. 4 -->
+<!--                        <div class="tp-caption   tp-resizeme" id="slide-69-layer-1" data-x="['left','left','left','center']" data-hoffset="['193','0','0','0']" data-y="['top','top','top','top']" data-voffset="['130','227','161','161']" data-fontsize="['60','40','40','40']" data-lineheight="['50','40','40','40']" data-fontweight="['700','300','300','300']" data-width="['333','456','456','456']" data-height="['171','none','none','none']" data-whitespace="normal" data-type="text" data-responsive_offset="on" data-frames='[{"delay":470,"speed":770,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['inherit','inherit','inherit','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6; min-width: 333px; max-width: 333px; max-width: 171px; max-width: 171px; white-space: normal; font-size: 60px; line-height: 50px; font-weight: 700; color: #0864b2;font-family:Poppins;">Innovative Industrial Cleaning </div>-->
+
+                        <!-- LAYER NR. 5 -->
+<!--                        <div class="tp-caption   tp-resizeme" id="slide-69-layer-2" data-x="['left','left','left','center']" data-hoffset="['193','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['7','12','56','56']" data-width="306" data-height="none" data-whitespace="normal" data-type="text" data-responsive_offset="on" data-frames='[{"delay":960,"speed":790,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['inherit','inherit','inherit','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 7; min-width: 306px; max-width: 306px; white-space: normal; font-size: 14px; line-height: 22px; font-weight: 300; color: #494949;font-family:Poppins;">pixel perfect creative multi purpose HTML5 Template designed with great attention to details, flexibility and performance. </div>-->
+
+                        <!-- LAYER NR. 6 -->
+<!--
+                        <div class="tp-caption rev-btn rev-withicon " id="slide-69-layer-3" data-x="['left','left','left','center']" data-hoffset="['192','0','0','0']" data-y="['top','top','top','top']" data-voffset="['440','439','381','381']" data-color="['rgb(255,255,255)','rgba(255,255,255,1)','rgba(255,255,255,1)','rgba(255,255,255,1)']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-responsive_offset="on" data-responsive="off" data-frames='[{"delay":1420,"speed":920,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);bg:rgb(0,122,255);bs:solid;bw:0 0 0 0;"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[12,12,12,12]" data-paddingright="[35,35,35,35]" data-paddingbottom="[12,12,12,12]" data-paddingleft="[35,35,35,35]" style="z-index: 8; white-space: nowrap; font-size: 14px; line-height: 17px; font-weight: 300; color: #ffffff;font-family:Poppins;background-color:rgb(255,196,0);border-color:rgba(0,0,0,1);outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">Buy Now<i class="fa-icon-chevron-right"></i> </div>
+                    </li>
+-->
+				<!-- SLIDE  -->
+				<li data-index="rs-82" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="assets/revslider/assets/100x50_843bb-6.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+					<!-- MAIN IMAGE -->
+					<img src="assets/revslider/assets/1600x1070.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+					<!-- LAYERS -->
+
+					<!-- LAYER NR. 7 -->
+<!--
+					<div class="tp-caption   tp-resizeme" id="slide-82-layer-1" data-x="['left','left','left','center']" data-hoffset="['598','572','256','0']" data-y="['top','top','top','top']" data-voffset="['93','143','73','161']" data-fontsize="['60','60','60','40']" data-lineheight="['50','50','50','40']" data-fontweight="['700','700','700','300']" data-width="['202','202','202','456']" data-height="['146','146','146','none']" data-whitespace="normal" data-type="text" data-responsive_offset="on" data-frames='[{"delay":550,"speed":750,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['inherit','inherit','inherit','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; min-width: 202px; max-width: 202px; max-width: 146px; max-width: 146px; white-space: normal; font-size: 60px; line-height: 50px; font-weight: 700; color: #0864b2;font-family:Poppins;">Excellence Without Exception
+					</div>
+-->
+
+					<!-- LAYER NR. 8 -->
+<!--					<div class="tp-caption   tp-resizeme" id="slide-82-layer-2" data-x="['left','left','left','center']" data-hoffset="['597','571','257','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-58','12','56','56']" data-width="306" data-height="none" data-whitespace="normal" data-type="text" data-responsive_offset="on" data-frames='[{"delay":1040,"speed":770,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['inherit','inherit','inherit','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6; min-width: 306px; max-width: 306px; white-space: normal; font-size: 14px; line-height: 22px; font-weight: 300; color: #494949;font-family:Poppins;">pixel perfect creative multi purpose HTML5 Template designed with great attention to details, flexibility and performance. </div>-->
+
+					<!-- LAYER NR. 9 -->
+<!--					<div class="tp-caption rev-btn rev-withicon " id="slide-82-layer-3" data-x="['left','left','left','center']" data-hoffset="['594','568','257','0']" data-y="['top','top','top','top']" data-voffset="['373','439','381','381']" data-color="['rgb(255,255,255)','rgb(255,255,255)','rgba(255,255,255,1)','rgba(255,255,255,1)']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-responsive_offset="on" data-responsive="off" data-frames='[{"delay":1590,"speed":790,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);bg:rgb(0,122,255);bs:solid;bw:0 0 0 0;"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[12,12,12,12]" data-paddingright="[35,35,35,35]" data-paddingbottom="[12,12,12,12]" data-paddingleft="[35,35,35,35]" style="z-index: 7; white-space: nowrap; font-size: 14px; line-height: 17px; font-weight: 300; color: #ffffff;font-family:Poppins;background-color:rgb(255,196,0);border-color:rgba(0,0,0,1);outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">Buy Now<i class="fa-icon-chevron-right"></i> </div>-->
+				</li>
+			</ul>
+			<div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
+		</div>
+	</div>
+	<!-- END REVOLUTION SLIDER -->
+	<script type="text/javascript">
+		var tpj = jQuery;
+
+		var revapi19;
+		tpj(document).ready(function() {
+			if (tpj("#rev_slider_19_1").revolution == undefined) {
+				revslider_showDoubleJqueryError("#rev_slider_19_1");
+			} else {
+				revapi19 = tpj("#rev_slider_19_1").show().revolution({
+					sliderType: "standard",
+					jsFileLocation: "//localhost/revslider-standalone/revslider/public/assets/revslider/assets/js/",
+					sliderLayout: "fullwidth",
+					dottedOverlay: "none",
+					delay: 9000,
+					navigation: {
+						keyboardNavigation: "off",
+						keyboard_direction: "horizontal",
+						mouseScrollNavigation: "off",
+						mouseScrollReverse: "default",
+						onHoverStop: "off",
+						arrows: {
+							style: "hesperiden",
+							enable: true,
+							hide_onmobile: false,
+							hide_onleave: true,
+							hide_delay: 200,
+							hide_delay_mobile: 1200,
+							tmp: '',
+							left: {
+								h_align: "left",
+								v_align: "center",
+								h_offset: 20,
+								v_offset: 0
+							},
+							right: {
+								h_align: "right",
+								v_align: "center",
+								h_offset: 20,
+								v_offset: 0
+							}
+						},
+						bullets: {
+							enable: true,
+							hide_onmobile: false,
+							style: "hermes",
+							hide_onleave: false,
+							direction: "horizontal",
+							h_align: "center",
+							v_align: "bottom",
+							h_offset: 0,
+							v_offset: 60,
+							space: 5,
+							tmp: ''
+						}
+					},
+					responsiveLevels: [1240, 1024, 778, 480],
+					visibilityLevels: [1240, 1024, 778, 480],
+					gridwidth: [1110, 1024, 778, 480],
+					gridheight: [720, 720, 500, 500],
+					lazyType: "none",
+					shadow: 0,
+					spinner: "spinner0",
+					stopLoop: "off",
+					stopAfterLoops: -1,
+					stopAtSlide: -1,
+					shuffle: "off",
+					autoHeight: "off",
+					disableProgressBar: "on",
+					hideThumbsOnMobile: "off",
+					hideSliderAtLimit: 0,
+					hideCaptionAtLimit: 0,
+					hideAllCaptionAtLilmit: 0,
+					debugMode: false,
+					fallbacks: {
+						simplifyAll: "off",
+						nextSlideOnWindowFocus: "off",
+						disableFocusListener: false,
+					}
+				});
+			}
+		}); /*ready*/
+
+	</script>
+
+
+	<section class="padding-tb-40px background-black">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 wow fadeIn">
+					<div class="text-center">
+						<h2 class="text-cta text-white margin-tb-20px">Perdeu a chave do seu carro? Garantimos o menor preço!</h2>
+					</div>
+				</div>
+                <div class="col-md-4 wow fadeIn">
+					<div class="text-center">
+                        <a href="tel:39527699" class="btn btn-sm border-radius-30 margin-tb-15px text-black background-lime btn-block" style="font-size: 18px; font-weight: 600">
+                            LIGUE AGORA! (21) 3952-7699
+                        </a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="padding-tb-40px background-white">
+		<!-- title -->
+		<div class="text-center margin-bottom-45px wow fadeInUp">
+			<h1 class="text-main-color margin-bottom-0px">Insira um Título Aqui</h1>
+			<span>Aqui poderá vir uma descrição breve. </span>
+		</div>
+		<!-- // title -->
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-4 wow fadeInUp">
+					<div class="background-second-color text-center margin-bottom-40px">
+						<img src="assets\img\850x600.jpg" alt="">
+						<div class="service-body padding-30px">
+							<div class="text-black text-extra-large d-block margin-bottom-10px">Titulo 1</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+					<div class="background-second-color text-center margin-bottom-40px">
+						<img src="assets\img\850x600.jpg" alt="">
+						<div class="service-body padding-30px">
+							<div class="text-black text-extra-large d-block margin-bottom-10px">Titulo 2</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+					<div class="background-second-color text-center margin-bottom-40px">
+						<img src="assets\img\850x600.jpg" alt="">
+						<div class="service-body padding-30px">
+							<div class="text-black text-extra-large d-block margin-bottom-10px">Titulo 3</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="col-md-4  wow fadeInUp" data-wow-delay="0.3s">
+					<div class="background-second-color text-center margin-bottom-40px">
+						<img src="assets\img\850x600.jpg" alt="">
+						<div class="service-body padding-30px">
+							<div class="text-black text-extra-large d-block margin-bottom-10px">Titulo 4</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="col-md-4  wow fadeInUp" data-wow-delay="0.3s">
+					<div class="background-second-color text-center margin-bottom-40px">
+						<img src="assets\img\850x600.jpg" alt="">
+						<div class="service-body padding-30px">
+							<div class="text-black text-extra-large d-block margin-bottom-10px">Titulo 5</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="col-md-4  wow fadeInUp" data-wow-delay="0.3s">
+					<div class="background-second-color text-center margin-bottom-40px">
+						<img src="assets\img\850x600.jpg" alt="">
+						<div class="service-body padding-30px">
+							<div class="text-black text-extra-large d-block margin-bottom-10px">Titulo 6</div>
+						</div>
+					</div>
+				</div>
+
+                <div class="col-md-4  wow fadeInUp" data-wow-delay="0.4s">
+					<div class="background-second-color text-center margin-bottom-40px">
+						<img src="assets\img\850x600.jpg" alt="">
+						<div class="service-body padding-30px">
+							<div class="text-black text-extra-large d-block margin-bottom-10px">Titulo 7</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="col-md-4  wow fadeInUp" data-wow-delay="0.4s">
+					<div class="background-second-color text-center margin-bottom-40px">
+						<img src="assets\img\850x600.jpg" alt="">
+						<div class="service-body padding-30px">
+							<div class="text-black text-extra-large d-block margin-bottom-10px">Titulo 8</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="col-md-4  wow fadeInUp" data-wow-delay="0.4s">
+					<div class="background-second-color text-center margin-bottom-40px">
+						<img src="assets\img\850x600.jpg" alt="">
+						<div class="service-body padding-30px">
+							<div class="text-black text-extra-large d-block margin-bottom-10px">Titulo 9</div>
+						</div>
+					</div>
+				</div>                
+                
+			</div>
+		</div>
+	</section>
     
-    <style type="text/css">
-      body {
-        color: white;
-        background-image: url("assets/img/bg.jpeg");
-        background-color: rgba(0, 0, 0, 0.6);
-        background-position: center;
-        background-size: cover;
-        background-attachment: fixed;
-        background-blend-mode: darken;
-      }
-    </style>
-    
-    <!-- Meta Pixel Code -->
-<script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '543078347006804');
-  fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=543078347006804&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
-    
-    <!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '375456594409422');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=375456594409422&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
-    
-  </head>
-  <body>
-    
-    <header class="py-4">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-8 text-center">
-            <!-- Imagem Ultrasecreto -->
-            <img class="img-fluid" src="./assets/img/ultrasecreto.svg">
+    <section class="padding-tb-40px background-black">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 wow fadeIn">
+					<div class="text-center">
+						<h2 class="text-cta text-white margin-tb-20px">Perdeu a chave do seu carro? Garantimos o menor preço!</h2>
+					</div>
+				</div>
+                <div class="col-md-4 wow fadeIn">
+					<div class="text-center">
+                        <a href="tel:39527699" class="btn btn-sm border-radius-30 margin-tb-15px text-black background-lime btn-block" style="font-size: 18px; font-weight: 600">
+                            LIGUE AGORA! (21) 3952-7699
+                        </a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-            <!-- Headline -->
-            <h3 class="my-4"><b>Simples Vitamina com 6 Ingredientes que  Derrete Muita Gordura</b></h3>
 
-            <!-- VSL -->
-            <script type="text/javascript" id="scr_6226ac18aa8f7e000965d88e">var s=document.createElement("script");s.src="https://cdn.converteai.net/8b03b5e9-1e95-4b45-9063-037ac9b350ab/players/6226ac18aa8f7e000965d88e/player.js",s.async=!0,document.head.appendChild(s);</script>
+	<section class="padding-tb-40px background-light-grey">
+		<div class="container">
+			<div class="text-center margin-bottom-35px wow fadeInUp">
+				<h1 class="font-weight-300 text-title-large text-main-color">Alguns dos Nossos Clientes</h1>
+			</div>
 
-            <!-- Botão -->
-            <div id="cta1" class="mt-4 d-none">
-              <a href="https://pay.kiwify.com.br/sF8uJx5" class="a-btn" style="text-decoration: none;">
-                <span class="span-btn">QUERO OBTER ACESSO!</span>
-                <span class="span-btn2">(atenção: vagas limitadas)</span>
-              </a>
-            </div>
+			<div class="testimonial-carousel owl-carousel owl-theme wow fadeInUp">
+				<div>
+					<div style="text-align: center">
+						<img src="assets/revslider/assets/320x214.jpg" alt="">
+					</div>
+				</div>
+                <div>
+					<div style="text-align: center">
+						<img src="assets/revslider/assets/320x214.jpg" alt="">
+					</div>
+				</div>
+				<div>
+					<div style="text-align: center">
+						<img src="assets/revslider/assets/320x214.jpg" alt="">
+					</div>
+				</div>
+				<div>
+					<div style="text-align: center">
+						<img src="assets/revslider/assets/320x214.jpg" alt="">
+					</div>
+				</div>
+				<div>
+					<div style="text-align: center">
+						<img src="assets/revslider/assets/320x214.jpg" alt="">
+					</div>
+				</div>
+				<div>
+					<div style="text-align: center">
+						<img src="assets/revslider/assets/320x214.jpg" alt="">
+					</div>
+				</div>
+				<div>
+					<div style="text-align: center">
+						<img src="assets/revslider/assets/320x214.jpg" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-            <!-- Termos de Uso e Política de Privacidade -->
-            <div class="text-white mt-4"><a href="termos.html" class="text-white">Termos de Uso</a> | <a href="privacidade.html" class="text-white">Política de Privacidade</a></div>
-          </div>
-        </div>
-      </div>
-    </header>
+<!--
+	<section class="padding-tb-100px background-white">
+		<div class="container">
+			<div class="text-center margin-bottom-35px wow fadeInUp">
+				<h1 class="font-weight-300 text-title-large text-main-color">Last News</h1>
+				<span class="text-second-color">Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elitdunt</span>
+			</div>
 
-    <script type="text/javascript">
-      setTimeout(() => {document.getElementById("cta1").classList.remove("d-none")}, 1637000); // temporização da Call to Action (em milissegundos)
-    </script>
+			<div class="row">
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script src="./assets/js/com.js"></script>
-  </body>
+				<div class="col-lg-4 col-md-6 sm-mb-30px wow fadeInUp">
+					<div class="blog-item background-main-color">
+						<div class="position-relative">
+							<div class="date width-50px padding-10px background-second-color text-white text-center position-absolute top-20px left-20px">
+								17/2 2018
+							</div>
+							<a href="#"><img src="http://placehold.it/850x600" alt=""></a>
+						</div>
+						<div class="padding-30px">
+							<a href="#" class="text-extra-large d-block text-white">Don’t spend time beating on a wall, hoping to ...</a>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="col-lg-4 col-md-6 sm-mb-30px  wow fadeInUp" data-wow-delay="0.2s">
+					<div class="blog-item background-main-color">
+						<div class="position-relative">
+							<div class="date width-50px padding-10px background-second-color text-white text-center position-absolute top-20px left-20px">
+								17/2 2018
+							</div>
+							<a href="#"><img src="http://placehold.it/850x600" alt=""></a>
+						</div>
+						<div class="padding-30px">
+							<a href="#" class="text-extra-large d-block text-white">Believe not all that you see nor half what you hear</a>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="col-lg-4 col-md-6 sm-mb-30px  wow fadeInUp" data-wow-delay="0.6s">
+					<div class="blog-item background-main-color">
+						<div class="position-relative">
+							<div class="date width-50px padding-10px background-second-color text-white text-center position-absolute top-20px left-20px">
+								17/2 2018
+							</div>
+							<a href="#"><img src="http://placehold.it/850x600" alt=""></a>
+						</div>
+						<div class="padding-30px">
+							<a href="#" class="text-extra-large  d-block text-white">He who makes no mistakes makes nothing</a>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+	</section>
+-->
+    <!-- //container -->
+
+
+	<section class="background-main-color wow fadeInUp padding-tb-60px ">
+		<!-- Map -->
+<!--
+		<div class="map-distributors-in z-index-3">
+			<div id="map-distributors">
+				<script type="text/javascript">
+					$(function() {
+						$("#map-distributors").goMap({
+							zoom: 6,
+							maptype: 'ROADMAP',
+							markers: [{
+								address: '39.605247,-104.615413',
+								icon: 'assets/img/icon_marker_1.png'
+							}, ],
+							hideByClick: true
+						});
+						$("#default").click(function() {
+							$("#dump").html($.dump($.goMap.getMarkers()));
+						});
+						$("#clearall").click(function() {
+							$.goMap.clearMarkers();
+						});
+						$("#json").click(function() {
+							$("#dump").html($.goMap.getMarkers("json"));
+						});
+						$("#data").click(function() {
+							$("#dump").html($.goMap.getMarkers("data"));
+						});
+						$('.gm-style-iw').parent().css('width', 'auto');
+					});
+
+				</script>
+
+			</div>
+		</div>
+-->
+		<!-- //  Map -->
+
+		<div class="container pull-top-90px z-index-9 position-relative">
+			<div class="row">
+				<div class="col-lg-3 col-md-6 padding-right-0px sm-padding-0px">
+					<div class="background-second-color  text-center padding-30px">
+						<i class="icon_phone icon-large text-black"></i>
+						<h6 class="text-black font-weight-300 margin-top-15px">Telefone</h6>
+						<h5 class="text-black font-2 text-main-color"><a href="tel:2139527699">(21) 3952-7699</a></h5>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 padding-lr-0px sm-padding-0px">
+					<div class="background-second-color text-center padding-30px">
+						<i class="icon_map_alt icon-large text-black"></i>
+						<h6 class="text-black font-weight-300 margin-top-15px">Endereço</h6>
+						<h5 class="text-black font-2 text-main-color">Marmora Road, Glasgow</h5>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 padding-lr-0px sm-padding-0px">
+					<div class="background-second-color text-center padding-30px">
+						<i class="icon_link icon-large text-black"></i>
+						<h6 class="text-black font-weight-300 margin-top-15px">Website</h6>
+						<h5 class="text-black font-2 text-main-color">www.site-name.com</h5>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 padding-left-0px sm-padding-0px">
+					<div class="background-second-color text-center padding-30px">
+						<i class="icon_phone icon-large text-black"></i>
+						<h6 class="text-black font-weight-300 margin-top-15px">WhatsApp</h6>
+						<h5 class="text-black font-2 text-main-color">+222 123 3019</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- Footer -->
+	<footer id="footer" class="background-main-color text-white text-center text-lg-left">
+		<div class="container">
+			<div class="row justify-content-center padding-tb-30px text-center">
+				<div class="col-lg-8">
+					<div class="about">
+						<p class="text-white opacity-7">
+							Essa seção serve para alguma informação de privacidade, podemos retirar daqui se for o caso.
+						</p>
+					</div>
+				</div>
+			</div>
+			<hr class="border-white opacity-4">
+			<div class="row padding-tb-15px">
+				<div class="col-lg-8">
+					<p class="text-sm-center text-lg-center">Desenvolvido por | @2022 Todos os Direitos Reservados</p>
+				</div>
+<!--
+				<div class="col-lg-4 sm-mb-20px">
+				</div>
+-->
+<!--
+				<div class="col-lg-4">
+					<ul class="social_link list-inline text-sm-center text-lg-right">
+						<li class="list-inline-item"><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li>
+						<li class="list-inline-item"><a class="youtube" href="#"><i class="fab fa-youtube"></i></a></li>
+						<li class="list-inline-item"><a class="linkedin" href="#"><i class="fab fa-linkedin"></i></a></li>
+						<li class="list-inline-item"><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+						<li class="list-inline-item"><a class="rss" href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+					</ul>
+					
+				</div>
+-->
+                <!-- // Social -->
+			</div>
+
+		</div>
+
+	</footer>
+	<!-- // Footer -->
+
+	<script type="text/javascript" src="assets/js/sticky-sidebar.js"></script>
+    <script type="text/javascript" src="assets/js/YouTubePopUp.jquery.js"></script>
+	<script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="assets/js/imagesloaded.min.js"></script>
+	<script type="text/javascript" src="assets/js/wow.min.js"></script>
+	<script type="text/javascript" src="assets/js/custom.js"></script>
+	<script type="text/javascript" src="assets/js/popper.min.js"></script>
+	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+</body>
+
 </html>
